@@ -40,7 +40,7 @@ ENDIF
   <meta name="keywords" content="">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> Starter Template </title>
+  <title> Register LP </title>
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -128,6 +128,32 @@ ENDIF
             src="https://client-data.knak.io/production/email_assets/5fd10b569d941/Y9PaAR4BN1uvwQSeUR37Jtdwa2YUrN1By1RZIsk8.png"
             alt="SNHU Logo" height="80">
         </a>
+
+        <div class="d-flex  align-items-center mt-3 countdown-wrapper">
+
+        <div id="countdown-headline" style="color: #fff;">You’re registered! 
+          <p class="" style="color: #fff;">Next term starts September 1</p>
+        </div>
+      
+
+      <div id="countdown">
+        <span id="nextTermStartDate" class="d-none"> 9/1/2025 12:00:00 AM </span>
+        <ul>
+          <li>
+            <span id="days">26</span>Days
+          </li>
+          <li>
+            <span id="hours">9</span>Hours
+          </li>
+          <li>
+            <span id="minutes">57</span>Minutes
+          </li>
+          <li>
+            <span id="seconds">56</span>Seconds
+          </li>
+        </ul>
+      </div>
+      </div>
         <div class=" justify-content-end" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a href="Tel:8883870861" class="nav-link head-link mx-3 " target="_blank">Call</a>
@@ -140,11 +166,86 @@ ENDIF
     </nav>
   </header>
 
-  <!---Meet the New SNHU Term Names-->
+  <!---Welcome-->
 
-  <div class="meet-div text-center d-flex justify-content-center align-items-center">
+  <section id="welcome">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div id="welcome-message" >
+            <h1 class="text-white" >Student, welcome to your Prep for Success resource page!</h1>
+            <br>
+            <p class="text-white">We’ve created this page to show you how students at SNHU succeed in their courses — with best practices, time-saving tips and the best ways to reach out for support when you need it. 
+              <strong>Tip: bookmark this page for faster access when you need it.</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+ <section class="program-section">
+  <div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="text-center">
+        <strong style="font-size: 20px;" class="text-uppercase">Your Program</strong><br>
+      <span style="font-size: 18px;">Business Administration</span>
+      </div>
+    </div>
+     <div class="col-md-4">
+      <div class="text-center">
+        <strong style="font-size: 20px;" class="text-uppercase">Your Advisor</strong><br>
+      <span style="font-size: 18px;">Business Administration</span>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="text-center">
+        <strong style="font-size: 20px;" class="text-uppercase">Term Ends</strong><br>
+      <span style="font-size: 18px;">December 15, 2025</span>
+      </div>
+    </div>
   </div>
+  </div>
+ </section>
 
+ <!---Knowledge Base section-->
+
+   <section class="knowledge-base pt-5">
+      <div class="container">
+        <h2 class="text-center py-5">Contact info for your student’s support network:</h2>
+        <div id="cardContainer" >
+          <!-- Card Container -->
+          <div class="row g-md-5" id="cardRow">
+            <div class="col-md-4 mb-4 card-col">
+              <div class="card">
+                <div>
+                  <div class="card-header d-flex justify-content-center p-0">
+<img
+  style="width: 100%; margin: auto; display: block;"
+  class="vidyard-player-embed vidyard-embed"
+  src="https://play.vidyard.com/ztt6T1BwZLg632fyJwzpER.jpg"
+  data-uuid="ztt6T1BwZLg632fyJwzpER"
+  data-v="4"
+  data-type="inline"
+/>
+
+                  </div>
+                  <div class="card-body d-flex flex-column">
+                    <h3 class="card-title text-center" style="color: #0a3370; font-size: 1.25rem; font-weight: 700">
+                      Thursdays and sundays are important!</h3>
+                      <p class="card-info text-center">Weekly participation in your courses is crucial to your grade. And there’s no better way to start collecting points than by submitting your weekly discussion posts by this Thursday.</p>
+                   <a href="" target="_blank" class="btn btn-primary cta-action">Go to Brightspace</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- End Card Template -->
+        </div>
+      </div>
+    </section>
   <!--Accreditation-->
 
   <div role="region" aria-label="Accreditations" class="container-fluid align-items-center text-center py-5 bg-light accreditation">
@@ -188,3 +289,100 @@ ENDIF
       </div>
     </div>
   </footer>
+<!-- The script tag should live in the head of your page if at all possible -->
+<script type="text/javascript" async src="https://play.vidyard.com/embed/v4.js"></script>
+
+<!-- Put this wherever you would like your player to appear -->
+<img
+  style="width: 100%; margin: auto; display: block;"
+  class="vidyard-player-embed"
+  src="https://play.vidyard.com/RCRgrDktyvxmtEeNPLc8LU.jpg"
+  data-uuid="RCRgrDktyvxmtEeNPLc8LU"
+  data-v="4"
+  data-type="inline"
+/>
+
+
+  <script>
+    // Inline JSON data with image URLs
+    const jsonData = [
+
+        {
+        "title": "How to set (and reset) your SNHU single sign-on password",
+        "embedSRC": "https://play.vidyard.com/Q7nvsTXQQ55tNPBXGA14zE.jpg",
+        "embedUUID": "Q7nvsTXQQ55tNPBXGA14zE",
+        "info": "When you receive the email with your single sign-on username, the first thing to do is to create your password by clicking the link to the SNHU password reset page.",
+         "ctaAction": "Go to SNHU password reset page",
+        "ctaLink": "https://passwordreset.microsoftonline.com/"
+      },
+
+      {
+        "title": "How to log in to mySNHU",
+        "embedSRC": "https://play.vidyard.com/ztt6T1BwZLg632fyJwzpER.jpg",
+        "embedUUID": "ztt6T1BwZLg632fyJwzpER",
+        "info": "The SNHU Brightspace learning platform is where you’ll find, complete and submit your assignments. You’ll also have access to free academic support and tutoring.",
+        "ctaAction": "Go to mySNHU",
+        "ctaLink": "https://my.snhu.edu/my.policy"
+
+      },
+     
+      {
+        "title": "How to log in to your SNHU webmail",
+        "embedSRC": "https://play.vidyard.com/DB2WTW8nZpJUFKT7bUmqRk.jpg",
+        "embedUUID": "DB2WTW8nZpJUFKT7bUmqRk",
+        "info": "The best way to access your SNHU webmail is to go through mySNHU, but you can also log in directly at Webmail.SNHU.edu.",
+        "ctaAction": "Go to webmail.snhu.edu email",
+        "ctaLink": "webmail.snhu.edu"
+      },
+
+      {
+        "title": "How to log in to the SNHU Brightspace learning platform",
+        "embedSRC": "https://play.vidyard.com/RCRgrDktyvxmtEeNPLc8LU.jpg",
+        "embedUUID": "RCRgrDktyvxmtEeNPLc8LU",
+        "info": "The SNHU Brightspace learning platform is where you’ll find, complete and submit your assignments. You’ll also have access to free academic support and tutoring.",
+        "ctaAction": "Go to Brightspace",
+        "ctaLink": "https://learn.snhu.edu/d2l/home"
+      },
+
+       {
+        "title": "What kind of computer do I need to be an online SNHU student?",
+        "embedSRC": "https://play.vidyard.com/RCRgrDktyvxmtEeNPLc8LU.jpg",
+        "embedUUID": "RCRgrDktyvxmtEeNPLc8LU",
+        "info": "The SNHU Brightspace learning platform is where you’ll find, complete and submit your assignments. You’ll also have access to free academic support and tutoring.",
+        "ctaAction": "What kind of computer do I need to be an online SNHU student?",
+        "ctaLink": "https://learn.snhu.edu/d2l/home"
+      },
+
+    ];
+
+    // Reference to the card container and card row
+    const cardContainer = document.getElementById('cardContainer');
+    const cardRow = document.getElementById('cardRow');
+
+    // Get the card template
+    const cardTemplate = document.querySelector('#cardContainer .card-col');
+
+    // Loop through the data and generate Bootstrap cards with two cards per row
+    jsonData.forEach((cardData, index) => {
+
+
+      // Clone the card template
+      const newCard = cardTemplate.cloneNode(true);
+
+      // Update card content
+      newCard.querySelector('.card-title').textContent = cardData.title;
+      // newCard.querySelector('.card-text').innerHTML = cardData.content;
+      newCard.querySelector('.card-info').innerHTML = cardData.info;
+      newCard.querySelector('img').src = cardData.embedSRC;
+      newCard.querySelector('img').dataset.uuid = cardData.embedUUID;
+      newCard.querySelector('a').href = cardData.ctaLink;
+      newCard.querySelector('a').textContent = cardData.ctaAction;
+
+      // Append the new card to the row
+      cardRow.appendChild(newCard);
+
+      // Display the new card (remove the "d-none" class if you have it)
+      newCard.classList.remove('d-none');
+
+    });
+  </script>

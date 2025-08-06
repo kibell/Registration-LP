@@ -16,14 +16,92 @@ body {
 }
 
 
+#countdown-headline {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 1rem;
+}
 
+#countdown-headline p {
+    font-size: 1.2rem;
+    color: $primary;
+} 
 
+#countdown ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
 
+  #countdown li {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+    list-style-type: none;
+    padding: 1.2rem;
+}
   
   
+ #countdown li span {
+    display: block;
+    font-size: 1.25rem;
+}
+
+#days, #hours, #minutes, #seconds {
+    color: $primary;
+}
   
+
+
+@media only screen and (max-width: $breakpoint-sm) {
+
+.countdown-wrapper {
+  flex-direction: column;
+}
+
+  #countdown li {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+    list-style-type: none;
+    padding: .5rem;
+}
+  
+#days, #hours, #minutes, #seconds, #countdown li  {
+   font-size: 1rem;
+}
+
+}
+
+  
+//Welcome Section 
+#welcome {
+    background-image: url(https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/4903ad99-88ac-45f4-957f-80a2905f97d8.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
  
+#welcome-message {
+    background-color: $ink-blue;
+    padding: 3rem;
+    border-radius: 0 2.5rem 0 2.5rem;
+    color: #fff;
+}
   
-  
- 
-  
+@media only screen and (max-width: $breakpoint-sm) {
+  #welcome-message {
+    padding: 1rem;
+    border-radius: 0;
+  }
+}
+//program section
+
+.program-section {
+    background-color: $primary;
+    color: $heritage;
+}
